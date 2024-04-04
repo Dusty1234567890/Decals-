@@ -1,0 +1,9 @@
+local decals = game:GetService("Workspace"):GetDescendants()
+local decalCount = 0
+for _, decal in ipairs(decals) do
+    if decal:IsA("Decal") then
+        decal.Texture = "http://www.roblox.com/asset/?id=16799121447"
+        decalCount = decalCount + 1
+    end
+end
+print("Changed " .. decalCount .. " Decals to my son's picture.")
