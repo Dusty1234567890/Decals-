@@ -1,4 +1,4 @@
-while wait(1) do
+for count = 1,1000 do
 local decals = game:GetService("Workspace"):GetDescendants()
 local decalCount = 0
 for _, decal in ipairs(decals) do
