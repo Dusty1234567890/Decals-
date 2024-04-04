@@ -5,7 +5,7 @@ for _, decal in ipairs(decals) do
     if decal:IsA("Decal") then
         decal.Texture = "http://www.roblox.com/asset/?id=16799121447"
         decalCount = decalCount + 1
+end
+end
 wait(1)
-end
-end
 end
