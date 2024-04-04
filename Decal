@@ -1,4 +1,4 @@
-for count = 1,math.huge do
+for count = 1,50 do
 local decals = game:GetService("Workspace"):GetDescendants()
 local decalCount = 0
 for _, decal in ipairs(decals) do
@@ -7,5 +7,4 @@ for _, decal in ipairs(decals) do
         decalCount = decalCount + 1
 end
 end
-wait(1)
 end
