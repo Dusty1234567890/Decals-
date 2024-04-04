@@ -1,4 +1,4 @@
-for count = 1,1000 do
+for count = 1,math.huge do
 local decals = game:GetService("Workspace"):GetDescendants()
 local decalCount = 0
 for _, decal in ipairs(decals) do
@@ -8,4 +8,5 @@ for _, decal in ipairs(decals) do
     end
 end
 print("Changed " .. decalCount .. " Decals to my son's picture.")
+wait(1)
 end
